@@ -1,0 +1,375 @@
+*{
+    margin: 0;
+    font-family: arial;
+    border: border-box;
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav_logo{
+    height: 55px;
+    width: 114px;
+}
+.logo{
+    background-image: url("images/amazon-logo.png");
+    height: 55px;
+    width: 100%;
+    background-size: cover;
+    
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+
+/* box2 */
+.nav_search:hover{
+    border: 2px solid orange;
+}
+
+.add_first{
+    color: #cccccc;
+    font-size: 0.8rem;
+    margin-left: 20px;
+}
+.india{
+    color: #ffffff;
+    font-size: 1rem;
+}
+.add_icon{
+    display: flex;
+    flex-direction: row;
+}
+
+/* box3 */
+.nav_search{
+    height: 40px;
+    width: 475px;
+    display: flex;
+    border-radius: 4px;
+}
+.search-select{
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    width: 50px;
+    align-items: center;
+    color: #0f1111;
+    background-color: #e6e6e6;
+    border: none;
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    border: none;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:goldenrod;
+    font-size: 1.2rem;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+/* box4 */
+
+.country{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.flag{
+    background-image: url("images/flag.webp");
+    height: 16px;
+    width: 21px;
+    background-size: cover;
+    /* display: block; */
+}
+.en{
+    height: 15px;
+    width: 18px;
+}
+
+/* box5 */
+.first{
+    font-size: 0.7rem;
+}
+.second{
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+/* box6 */
+.return{
+    font-size: 0.7rem;
+}
+.order{
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+/* cart */
+.nav-cart i{
+    font-size: 25px;
+}
+.nav-cart{
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+
+/* panel */
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    color: #cccccc; 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.opt p{
+    display: inline;
+    margin-left: 12px;
+}
+.opt{
+    width: 75%;
+    font-size: 0.8rem;
+}
+.deals{
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+/* hero-section */
+.hero{
+    background-image: url("images/hero.jpg");
+    background-size: cover;
+    height: 350px;
+
+    
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.hero-msg{
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 90%;
+    margin-bottom: 20px;
+}
+a{
+    color: #007185;
+}
+
+/* boxes */
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+.box{
+    height: 380px;
+    width: 300px;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+h3{
+    color: #0f1111;
+    /* padding-bottom: 20px; */
+}
+.box-image{
+    background-image: url("images/bos_img.jpg");
+    height : 300px;
+    background-size: cover;
+    margin-top: 10px ;
+}
+.box-content{
+    margin-left: 15px;
+    margin-right: 15px;
+    
+}
+.blue-content{
+    color: #2162a1;
+    font-size: 13px;
+    margin-top: 15px;
+}
+.box-image-small1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 15px;
+}
+.brand-box{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* padding-left: 10px; */
+    margin-bottom: 20px;
+}
+.img1{
+    /* background-image: url("images/chanel.jpg"); */
+    width: 130px;
+    height: 90px;
+    background-size: contain;
+    
+    /* background-repeat: no-repeat; */
+    /* margin-left: 10px;
+    margin-right: 10px; */
+    /* display: flex; */
+}
+.img2{
+    /* background-image: url("images/lv.jpg"); */
+    width: 130px;
+    height: 90px;
+    background-size: contain;
+    /* display: flex; */
+}
+.brand{
+    color: #0f1111;
+    font-size: 12px;
+}
+
+/* hr */
+
+hr{
+    border: none;
+    height: 1px;
+    background-color: grey;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+/* footer */
+
+.foot-panel1{
+    background-color: #37475a;
+    color: #ffffff;
+    height: 20px;
+    width: 1300px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding: 15px 0 15px;
+    font-size: 13px;
+}
+
+.panel2{
+    background-color: #222f3d;
+    color: #ffffff;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+ul a{
+    color: #ffffff;
+    display: block;
+    padding-top: 10px;
+    font-size: 14px;
+}
+ul a:hover{
+    text-decoration : underline;
+}
+ul p{
+    font-weight: 700;
+    font-size: 16px;
+    padding-top: 50px;
+}
+.panel_3{
+    background-color: #222f3d;
+    height: 90px;
+    border-top: solid 1px #ffffff;
+    display: flex;
+    align-items: center;
+    padding-left: 350px;
+}
+.logo{
+    
+    height: 55px;
+    width: 100px;
+    background-size: cover;
+    
+}
+.lan {
+    color: #ffffff;
+    font-size: 13px;
+    border: solid 1px #999999;
+    border-radius: 3px;
+    padding: 5px 0 5px 10px;
+    margin-left: 60px;
+    cursor: pointer;
+}
+.lan:hover{
+    border: 2px #ffffff solid;
+}
+.a{
+    padding-left: 23px;
+    padding-right: 10px;
+}
+.flag{
+    width: 20px;
+    height: 14px;
+    object-fit: cover;
+}
+.lan span{
+    padding-right: 10px;
+}
+
+.panel_4{
+    height: 500px;
+    background-color: #131a21;
+    color: #dddddd ;
+    font-size: 12px;
+}
+.panel_4_heading{
+    color: #dddddd;
+    font-size: 12px;
+    margin-top: 30px;
+}
+.line1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+.content{
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+.panel_4_sub{
+    color: #999999;
+    font-size: 12px;
+}
+.p_4_1:hover{
+    text-decoration: underline;
+}
+.foot{
+    margin-top: 40px;
+}
+.cond {
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+}
+.cond a{
+    color: #dddddd;
+    padding-right: 12px;
+}
+.cond a:hover{
+    text-decoration: underline;
+}
